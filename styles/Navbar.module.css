@@ -85,8 +85,25 @@
   .item:nth-child(2) {
     display: none;
   }
-
+  
   .item:nth-child(1) {
     flex: 3;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .callButton {
+    display: flex;
+    align-items: center;
+    width: 60px;
+  }
+
+  .text:first-child {
+   display: none;
+  }
+  .text:last-child {
+    font-size: 15px;
+  }
+
+ 
 }
